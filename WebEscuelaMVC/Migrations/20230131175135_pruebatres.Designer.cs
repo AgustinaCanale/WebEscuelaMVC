@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebEscuelaMVC.Data;
 
 namespace WebEscuelaMVC.Migrations
 {
     [DbContext(typeof(EscuelaDBMVCContext))]
-    partial class EscuelaDBMVCContextModelSnapshot : ModelSnapshot
+    [Migration("20230131175135_pruebatres")]
+    partial class pruebatres
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

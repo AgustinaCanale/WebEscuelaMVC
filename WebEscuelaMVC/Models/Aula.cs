@@ -9,7 +9,7 @@ namespace WebEscuelaMVC.Models
 
         [Required]
         [NumeroMayor100]
-        public string Numero { get; set; }
+        public int Numero { get; set; }
 
         [Required]
         public string Estado { get; set; }
